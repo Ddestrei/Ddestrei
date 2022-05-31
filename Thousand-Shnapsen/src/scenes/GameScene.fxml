@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eb1c24" height="900.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#39ff1f" height="100.0" layoutX="50.0" layoutY="750.0" stroke="BLACK" strokeType="INSIDE" width="700.0" />
+      <TextField layoutX="10.0" layoutY="325.0" prefHeight="50.0" prefWidth="200.0" text="Third" />
+      <TextField layoutX="590.0" layoutY="325.0" prefHeight="50.0" prefWidth="200.0" text="Second" />
+      <TextField layoutX="10.0" layoutY="375.0" prefHeight="50.0" prefWidth="200.0" />
+      <TextField layoutX="10.0" layoutY="425.0" prefHeight="50.0" prefWidth="200.0" />
+      <TextField layoutX="590.0" layoutY="375.0" prefHeight="50.0" prefWidth="200.0" />
+      <TextField layoutX="590.0" layoutY="425.0" prefHeight="50.0" prefWidth="200.0" />
+      <TextField layoutX="300.0" layoutY="10.0" prefHeight="50.0" prefWidth="200.0" text="First">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="300.0" layoutY="60.0" prefHeight="50.0" prefWidth="200.0" />
+      <TextField layoutX="300.0" layoutY="110.0" prefHeight="50.0" prefWidth="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="180.0" layoutX="295.0" layoutY="360.0" stroke="BLACK" strokeType="INSIDE" width="210.0" />
+      <ImageView fx:id="nineth" fitHeight="90.0" fitWidth="70.0" layoutX="50.0" layoutY="755.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="seventh" fitHeight="90.0" fitWidth="70.0" layoutX="120.0" layoutY="755.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="fifth" fitHeight="90.0" fitWidth="70.0" layoutX="190.0" layoutY="755.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="third" fitHeight="90.0" fitWidth="70.0" layoutX="260.0" layoutY="755.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="first" fitHeight="90.0" fitWidth="70.0" layoutX="330.0" layoutY="755.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="second" fitHeight="90.0" fitWidth="70.0" layoutX="400.0" layoutY="755.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="fourth" fitHeight="90.0" fitWidth="70.0" layoutX="470.0" layoutY="755.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="sixth" fitHeight="90.0" fitWidth="70.0" layoutX="566.0" layoutY="755.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="eigth" fitHeight="90.0" fitWidth="70.0" layoutX="610.0" layoutY="755.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="tenth" fitHeight="90.0" fitWidth="70.0" layoutX="680.0" layoutY="755.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="90.0" fitWidth="70.0" layoutX="295.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/AsKaro.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="70.0" layoutX="442.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/QueenTrefl.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="70.0" layoutX="369.0" layoutY="405.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/JackKier.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

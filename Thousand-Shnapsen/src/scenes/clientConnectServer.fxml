@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eb1c24" height="900.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
+      <ImageView fitHeight="100.0" fitWidth="400.0" layoutX="200.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/ConnetServer.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="400.0" layoutX="200.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/EnterCode.jpg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="100.0" layoutY="300.0" prefHeight="100.0" prefWidth="600.0" promptText="dwww">
+         <font>
+            <Font size="30.0" />
+         </font></TextField>
+      <ImageView fitHeight="100.0" fitWidth="400.0" layoutX="200.0" layoutY="750.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/ConnetServer.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="400.0" layoutX="200.0" layoutY="450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/EnterNickName.jpg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="100.0" layoutY="600.0" prefHeight="100.0" prefWidth="600.0" />
+      <Button layoutX="200.0" layoutY="750.0" mnemonicParsing="false" opacity="0.0" prefHeight="100.0" prefWidth="400.0" text="Button" />
+   </children>
+</AnchorPane>
