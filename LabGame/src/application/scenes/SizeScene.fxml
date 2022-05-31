@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fdfff" height="610.0" stroke="BLACK" strokeType="INSIDE" width="610.0" />
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="5.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/100x100.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="5.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/200x200.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="5.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/300x300.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="5.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/400x400.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="5.0" layoutY="444.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/500x500.jpg" />
+         </image></ImageView>
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="305.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/700x700.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="305.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/800x800.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="305.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/600x600.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="305.0" layoutY="344.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/900x900.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="5.0" layoutY="44.0" mnemonicParsing="false" onAction="#oneHundert" opacity="0.0" prefHeight="100.0" prefWidth="300.0" text="Button" />
+      <Button layoutX="5.0" layoutY="144.0" mnemonicParsing="false" onAction="#twoHundert" opacity="0.0" prefHeight="100.0" prefWidth="300.0" text="Button" />
+      <Button layoutX="5.0" layoutY="244.0" mnemonicParsing="false" onAction="#threeHundert" opacity="0.0" prefHeight="100.0" prefWidth="300.0" text="Button" />
+      <Button layoutX="5.0" layoutY="344.0" mnemonicParsing="false" onAction="#fourHundert" opacity="0.0" prefHeight="100.0" prefWidth="300.0" text="Button" />
+      <Button layoutX="5.0" layoutY="444.0" mnemonicParsing="false" onAction="#fiveHundert" opacity="0.0" prefHeight="100.0" prefWidth="300.0" text="Button" />
+      <Button layoutX="305.0" layoutY="44.0" mnemonicParsing="false" onAction="#sixHundert" opacity="0.0" prefHeight="100.0" prefWidth="300.0" text="Button" />
+      <Button layoutX="305.0" layoutY="144.0" mnemonicParsing="false" onAction="#sevenHundert" opacity="0.0" prefHeight="100.0" prefWidth="300.0" text="Button" />
+      <Button layoutX="305.0" layoutY="244.0" mnemonicParsing="false" onAction="#eightHundert" opacity="0.0" prefHeight="100.0" prefWidth="300.0" text="Button" />
+      <Button layoutX="506.0" layoutY="303.0" mnemonicParsing="false" onAction="#nineHundert" opacity="0.0" prefHeight="100.0" prefWidth="300.0" text="Button" />
+      <Button layoutX="296.0" layoutY="444.0" mnemonicParsing="false" onAction="#tenHundert" opacity="0.0" prefHeight="100.0" prefWidth="300.0" text="Button" />
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="305.0" layoutY="444.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/1000x1000.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

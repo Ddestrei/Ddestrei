@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#17dffe" height="610.0" stroke="BLACK" strokeType="INSIDE" width="610.0" />
+      <ImageView fitHeight="100.0" fitWidth="500.0" layoutX="55.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/Pictures%20v2/GameSize.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="five" fitHeight="100.0" fitWidth="100.0" layoutX="5.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/50x50Red.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="six" fitHeight="100.0" fitWidth="100.0" layoutX="105.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/60x60.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="seven" fitHeight="100.0" fitWidth="100.0" layoutX="205.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/70x70.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="eight" fitHeight="100.0" fitWidth="100.0" layoutX="305.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/80x80.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="nine" fitHeight="100.0" fitWidth="100.0" layoutX="405.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/90x90.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ten" fitHeight="100.0" fitWidth="100.0" layoutX="505.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/100x100N.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="300.0" layoutX="155.0" layoutY="510.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Desktop/Pictures%20v2/TOTHEMENU.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="500.0" layoutX="55.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/MazeSize.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="5.0" layoutY="130.0" mnemonicParsing="false" onAction="#fifty" opacity="0.0" prefHeight="100.0" prefWidth="100.0" text="5" />
+      <Button layoutX="105.0" layoutY="130.0" mnemonicParsing="false" onAction="#sixty" opacity="0.0" prefHeight="100.0" prefWidth="100.0" text="6" />
+      <Button layoutX="205.0" layoutY="130.0" mnemonicParsing="false" onAction="#seventy" opacity="0.0" prefHeight="100.0" prefWidth="100.0" text="7" />
+      <Button layoutX="305.0" layoutY="130.0" mnemonicParsing="false" onAction="#eighty" opacity="0.0" prefHeight="100.0" prefWidth="100.0" text="8" />
+      <Button layoutX="405.0" layoutY="130.0" mnemonicParsing="false" onAction="#ninety" opacity="0.0" prefHeight="100.0" prefWidth="100.0" text="9" />
+      <Button layoutX="505.0" layoutY="130.0" mnemonicParsing="false" onAction="#hundert" opacity="0.0" prefHeight="100.0" prefWidth="100.0" text="10" />
+      <Button layoutX="155.0" layoutY="510.0" mnemonicParsing="false" onAction="#toMenu" opacity="0.0" prefHeight="100.0" prefWidth="300.0" text="menu" />
+      <ImageView fx:id="oneHundert" fitHeight="80.0" fitWidth="240.0" layoutX="65.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/100x100RedBigger.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="twoHundert" fitHeight="80.0" fitWidth="240.0" layoutX="305.0" layoutY="330.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/200x200.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="threeHundert" fitHeight="80.0" fitWidth="240.0" layoutX="65.0" layoutY="410.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/300x300.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fourHundert" fitHeight="80.0" fitWidth="240.0" layoutX="305.0" layoutY="410.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/400x400.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="65.0" layoutY="330.0" mnemonicParsing="false" onAction="#oneHun" opacity="0.0" prefHeight="80.0" prefWidth="240.0" text="Button" />
+      <Button layoutX="305.0" layoutY="330.0" mnemonicParsing="false" onAction="#twoHun" opacity="0.0" prefHeight="80.0" prefWidth="240.0" text="Button" />
+      <Button layoutX="65.0" layoutY="410.0" mnemonicParsing="false" onAction="#threeHun" opacity="0.0" prefHeight="80.0" prefWidth="240.0" text="Button" />
+      <Button layoutX="305.0" layoutY="410.0" mnemonicParsing="false" onAction="#fourHun" opacity="0.0" prefHeight="80.0" prefWidth="240.0" text="Button" />
+   </children>
+</AnchorPane>
